@@ -1,0 +1,15 @@
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        double num = 3.14159;
+        string binary = Convert.ToString((short)(num * 32768), 2);
+        Console.WriteLine(binary);
+    }
+}
+
+
+Output:
+1000000101001000111000010111
