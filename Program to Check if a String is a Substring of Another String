@@ -1,0 +1,19 @@
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        string str1 = "hello";
+        string str2 = "worldhello";
+        bool containsSubstring = false;
+        if (str2.IndexOf(str1) != -1)
+            containsSubstring = true;
+        Console.WriteLine(containsSubstring ? "The string contains the substring." : "The string does not contain the substring.");
+    }
+}
+
+
+
+Output:
+The string contains the substring.
