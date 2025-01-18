@@ -1,0 +1,25 @@
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        int num = 6;
+        int sum = 0;
+        for (int i = 1; i < num; i++)
+        {
+            if (num % i == 0)
+                sum += i;
+        }
+        if (num == sum)
+            Console.WriteLine(num + " is a perfect number.");
+        else
+            Console.WriteLine(num + " is not a perfect number.");
+    }
+}
+
+
+
+
+   Output:
+6 is a perfect number.
