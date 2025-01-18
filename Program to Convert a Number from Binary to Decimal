@@ -1,0 +1,16 @@
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        string binary = "11001";
+        int decimalValue = Convert.ToInt32(binary, 2);
+        Console.WriteLine($"The decimal value of {binary} is: {decimalValue}");
+    }
+}
+
+
+
+Output:
+The decimal value of 11001 is: 25
