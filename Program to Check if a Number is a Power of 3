@@ -1,0 +1,22 @@
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        int num = 27;
+        bool isPowerOfThree = true;
+        for (int i = 2; Math.Pow(i, 3) <= num; i++)
+        {
+            if (Math.Pow(i, 3) == num)
+            {
+                isPowerOfThree = false;
+                break;
+            }
+        }
+        Console.WriteLine(isPowerOfThree ? "The number is a power of 3." : "The number is not a power of 3.");
+    }
+}
+
+Output:
+The number is a power of 3.
