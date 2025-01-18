@@ -1,0 +1,27 @@
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        string str = "radar";
+        bool isPalindrome = true;
+        int i = 0;
+        int j = str.Length - 1;
+        while (j > i)
+        {
+            if (str[i] != str[j])
+            {
+                isPalindrome = false;
+                break;
+            }
+            i++;
+            j--;
+        }
+        Console.WriteLine(isPalindrome ? "The string is a palindrome." : "The string is not a palindrome.");
+    }
+}
+
+
+Output:
+The string is a palindrome.
