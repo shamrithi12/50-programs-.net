@@ -1,0 +1,15 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        string name = "John";
+        string age = "30";
+        Console.WriteLine(name + " is " + age + " years old.");
+    }
+}
+
+
+
+Output: "John is 30 years old."
