@@ -1,0 +1,23 @@
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        int num = 315;
+        Console.Write("Prime factors of " + num + ": ");
+        for (int i = 2; i <= num; i++)
+        {
+            while (num % i == 0)
+            {
+                Console.Write(i + " ");
+                num /= i;
+            }
+        }
+    }
+}
+
+
+
+Output:
+Prime factors of 315: 3 3 5 7
