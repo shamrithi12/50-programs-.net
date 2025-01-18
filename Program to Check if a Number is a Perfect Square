@@ -1,0 +1,17 @@
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        double num = 16;
+        double sqrt = Math.Sqrt(num);
+        Console.WriteLine(sqrt == Math.Floor(sqrt) ? "The number is a perfect square." : "The number is not a perfect square.");
+    }
+}
+
+
+
+
+Output:
+The number is a perfect square.
