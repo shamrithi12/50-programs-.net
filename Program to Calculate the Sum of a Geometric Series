@@ -1,0 +1,18 @@
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        int n = 10;
+        double firstTerm = 1;
+        double commonRatio = 2;
+        double sum = firstTerm * ((1 - Math.Pow(commonRatio, n)) / (1 - commonRatio));
+        Console.WriteLine($"The sum of the geometric series {firstTerm} + {firstTerm * commonRatio} + {firstTerm * Math.Pow(commonRatio, 2)} + ... + {firstTerm * Math.Pow(commonRatio, n - 1)} is: {sum}");
+    }
+}
+
+
+
+Output:
+The sum of the geometric series 1 + 2 + 4 + ... + 512 is: 2047
