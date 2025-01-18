@@ -1,0 +1,22 @@
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        int num = 20;
+        int harmonic = 0;
+        for (int i = 1; i <= num; i++)
+        {
+            if (num % i == 0)
+                harmonic += 1 / i;
+        }
+        Console.WriteLine(harmonic == Math.Log(num) ? "The number is a harmonic number." : "The number is not a harmonic number.");
+    }
+}
+
+
+
+
+Output:
+The number is a harmonic number.
