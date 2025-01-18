@@ -1,0 +1,25 @@
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        int n = 10;
+        Console.WriteLine("Fibonacci Series: ");
+        int a = 0;
+        int b = 1;
+        for (int i = 0; i < n; i++)
+        {
+            Console.Write(a + " ");
+            int temp = a;
+            a = b;
+            b = temp + b;
+        }
+    }
+}
+
+
+
+
+   Output:
+Fibonacci Series: 0 1 1 2 3 5 8 13 21 34
