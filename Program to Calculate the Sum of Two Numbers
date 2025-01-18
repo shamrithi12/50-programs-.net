@@ -1,0 +1,22 @@
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Console.Write("Enter the first number: ");
+        double num1 = Convert.ToDouble(Console.ReadLine());
+        Console.Write("Enter the second number: ");
+        double num2 = Convert.ToDouble(Console.ReadLine());
+        double sum = num1 + num2;
+        Console.WriteLine($"The sum is: {sum}");
+    }
+}
+
+
+
+
+   Output:
+Enter the first number: 10
+Enter the second number: 15
+The sum is: 25
