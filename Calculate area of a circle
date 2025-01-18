@@ -1,0 +1,13 @@
+sing System;
+
+class Program
+{
+    static void Main()
+    {
+        double radius = 5;
+        double area = Math.PI * Math.Pow(radius, 2);
+        Console.WriteLine(area);
+    }
+}
+
+Output: 78.53981633974483
