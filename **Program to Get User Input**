@@ -1,0 +1,21 @@
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Console.Write("Enter your name: ");
+        string name = Console.ReadLine();
+        Console.WriteLine($"Hello, {name}!");
+    }
+}
+ 
+
+
+
+
+Output:
+
+CopyReplit
+Enter your name: [User Input]
+Hello, [User Input]!
