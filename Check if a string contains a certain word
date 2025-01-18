@@ -1,0 +1,17 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        string str = "Hello, World!";
+        if (str.Contains("World"))
+        {
+            Console.WriteLine("The string contains the word 'World'.");
+        }
+    }
+}
+
+
+
+Output: The string contains the word 'World'.
