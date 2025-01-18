@@ -1,0 +1,19 @@
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        int num = 24;
+        Console.Write("Factors of " + num + ": ");
+        for (int i = 1; i <= num; i++)
+        {
+            if (num % i == 0)
+                Console.Write(i + " ");
+        }
+    }
+}
+
+
+Output:
+Factors of 24: 1 2 3 4 6 8 12 24
