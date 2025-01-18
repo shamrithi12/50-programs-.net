@@ -1,0 +1,18 @@
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        string octal = "31";
+        int decimalValue = Convert.ToInt32(octal, 8);
+        Console.WriteLine($"The decimal value of {octal} is: {decimalValue}");
+    }
+}
+
+
+
+
+
+Output:
+The decimal value of 31 is: 25
